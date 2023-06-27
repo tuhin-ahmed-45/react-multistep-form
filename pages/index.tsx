@@ -1,9 +1,9 @@
 /* eslint-disable react/jsx-key */
+import AccountForm from "@/components/AccountForm";
+import AddressForm from "@/components/AddressForm";
+import { UserForm } from "@/components/UserForm";
+import useMultistepForm from "@/components/useMultistepForm";
 import { FormEvent, useState } from "react";
-import { AccountForm } from "./AccountForm";
-import { AddressForm } from "./AddressForm";
-import { UserForm } from "./UserForm";
-import { useMultistepForm } from "./useMultistepForm";
 
 type FormData = {
   firstName: string;

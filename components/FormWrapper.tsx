@@ -5,7 +5,7 @@ type FormWrapperProps = {
   children: ReactNode;
 };
 
-export function FormWrapper({ title, children }: FormWrapperProps) {
+export default function FormWrapper({ title, children }: FormWrapperProps) {
   return (
     <>
       <h2 style={{ textAlign: "center", margin: 0, marginBottom: "2rem" }}>

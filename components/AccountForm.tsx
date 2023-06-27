@@ -1,4 +1,4 @@
-import { FormWrapper } from "./FormWrapper";
+import FormWrapper from "./FormWrapper";
 
 type AccountData = {
   email: string;
@@ -9,7 +9,7 @@ type AccountFormProps = AccountData & {
   updateFields: (fields: Partial<AccountData>) => void;
 };
 
-export function AccountForm({
+export default function AccountForm({
   email,
   password,
   updateFields,
